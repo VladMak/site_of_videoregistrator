@@ -1,0 +1,39 @@
+.on_mobile{
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 15px 40px 15px;
+	margin-top: 10px;
+	line-height: 1em;
+	letter-spacing: 0.05em;
+	transition: all 0.3s ease-in-out;
+}
+
+.on_mobile a{
+	color: #fff !important;
+}
+
+.menu_on_mobile{
+	text-align: center;
+}
+
+
+@media (min-width: 0px) and (max-width: 991px){
+	.menu_on_desktop, .banner_on_desktop{
+		display: none;
+	}
+
+	.menu_on_mobile, .banner_on_mobile{
+		display: block;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 9000px){
+	.menu_on_mobile, .banner_on_mobile{
+		display: none;
+	}
+
+	.banner_on_desktop{
+		display: block;
+	}
+}
